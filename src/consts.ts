@@ -31,12 +31,12 @@ interface Site {
 
 // Site configuration
 export const SITE: Site = {
-  website: "https://steipete.me/",
-  author: "Peter Steinberger",
-  profile: "https://steipete.me/about",
-  desc: "AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.",
-  title: "Peter Steinberger",
-  ogImage: "peter-avatar.jpg",
+  website: "https://idsme.dev/",
+  author: "Ids Achterhof",
+  profile: "https://upload.wikimedia.org/wikipedia/commons/7/72/NIH_IT_Enterprise_Architecture_Framework.jpg",
+  desc: "Enterprise Architect building scalable digital solutions. Bridging technology and business with pragmatic, innovative approaches.",
+  title: "Ids Achterhof",
+  ogImage: "ids-profile.jpg",
   lightAndDarkMode: true,
   postPerIndex: 10,
   postPerPage: 10,
@@ -46,11 +46,11 @@ export const SITE: Site = {
   editPost: {
     enabled: true,
     text: "Edit on GitHub",
-    url: "https://github.com/steipete/steipete.me/edit/main/",
+    url: "https://github.com/idsme/ids.me/edit/main/",
   },
   dynamicOgImage: true,
   lang: "en",
-  timezone: "America/Los_Angeles",
+  timezone: "Europe/Amsterdam",
 };
 
 export const SITE_TITLE = SITE.title;
@@ -71,16 +71,16 @@ export const NAV_LINKS: SocialLink[] = [
 // Social media links
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: "https://github.com/steipete",
+    href: "https://github.com/idsme",
     label: "GitHub",
   },
   {
-    href: "https://twitter.com/steipete",
+    href: "https://x.com/idsmedev",
     label: "Twitter",
   },
   {
-    href: "https://bsky.app/profile/steipete.me",
-    label: "BlueSky",
+    href: "https://www.linkedin.com/in/idsachterhof/",
+    label: "LinkedIn",
   },
   {
     href: "/rss.xml",
@@ -92,7 +92,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 export const ICON_MAP: Record<string, string> = {
   GitHub: "github",
   Twitter: "twitter",
-  BlueSky: "bsky",
+  LinkedIn: "linkedin",
   RSS: "rss",
   Email: "mail",
 };

@@ -9,44 +9,34 @@ const { variant = "default" } = Astro.props;
 <div class={variant === 'default' ? 'newsletter-box bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 rounded-lg p-6 my-8' : 'newsletter-compact mt-6'}>
   {variant === 'default' && (
     <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
-      New posts, shipping stories, and nerdy links straight to your inbox.
+      Want to stay in touch? Connect with me on social media or drop me an email.
     </p>
   )}
   
-  <form
-    action="https://buttondown.com/api/emails/embed-subscribe/steipete"
-    method="post"
-    target="_blank"
-    class="flex flex-col sm:flex-row gap-3"
-  >
-    <input type="hidden" name="tag" value="steipete" />
-    <input
-      type="text"
-      name="name"
-      placeholder="Your Name"
-      class="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
-    />
-    <input
-      type="email"
-      name="email"
-      placeholder="Your Email"
-      required
-      class="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
-    />
-    <button
-      type="submit"
-      class="px-6 py-2 bg-accent rounded-md hover:bg-accent/90 transition-colors font-medium whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
-      style="color: white;"
+  <div class="flex flex-col sm:flex-row gap-3 items-center justify-center">
+    <a
+      href="https://github.com/idsme"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="px-6 py-2 bg-gray-800 dark:bg-gray-700 text-white rounded-md hover:bg-gray-700 dark:hover:bg-gray-600 transition-colors font-medium whitespace-nowrap"
     >
-      Subscribe
-    </button>
-  </form>
-  
-  {variant === 'default' && (
-    <p class="text-xs text-gray-500 dark:text-gray-400 mt-3">
-      2× per month, pure signal, zero fluff.
-    </p>
-  )}
+      GitHub
+    </a>
+    <a
+      href="https://www.linkedin.com/in/idsachterhof/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-500 transition-colors font-medium whitespace-nowrap"
+    >
+      LinkedIn
+    </a>
+    <a
+      href="mailto:idsmedev@gmail.com"
+      class="px-6 py-2 bg-accent text-white rounded-md hover:bg-accent/90 transition-colors font-medium whitespace-nowrap"
+    >
+      Email Me
+    </a>
+  </div>
 </div>
 
 <style>
