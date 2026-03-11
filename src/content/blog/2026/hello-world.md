@@ -1,6 +1,6 @@
 ---
 title: "Hello World - Welcome to My Blog"
-description: "Introducing idsme.dev - a space where I'll share thoughts on enterprise architecture, digital transformation, AI, and technology leadership."
+description: "Introducing ACME Labs - a space where I'll share thoughts on enterprise architecture, digital transformation, AI, and technology leadership."
 pubDatetime: 2026-03-10T18:00:00Z
 modDatetime: 2026-03-10T18:00:00Z
 author: "Ids Achterhof"
