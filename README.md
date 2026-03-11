@@ -23,6 +23,9 @@ I'm Ids Achterhof, an Enterprise Architect building scalable digital solutions. 
 │   ├── styles/          # Global styles and CSS
 │   └── utils/           # Utility functions
 ├── astro.config.mjs     # Astro configuration
+├── Dockerfile           # Multi-stage Docker build (Node 20 + nginx)
+├── nginx.conf           # Nginx config (redirects, CSP, content negotiation)
+├── .dockerignore        # Files excluded from Docker build context
 ├── vercel.json          # Vercel deployment and CSP configuration
 ├── package.json         # Project dependencies and scripts
 ├── tailwind.config.mjs  # Tailwind CSS configuration
@@ -40,7 +43,27 @@ I'm Ids Achterhof, an Enterprise Architect building scalable digital solutions. 
 
 ## Deployment
 
+### Vercel
+
 This site is set up for easy deployment on Vercel. Just connect your GitHub repository to Vercel, and it will automatically build and deploy the site when changes are pushed.
+
+### Docker (Dokploy / self-hosted)
+
+The project includes a multi-stage `Dockerfile` for self-hosted deployments:
+
+1. **deps** — Installs dependencies on `node:20-alpine` with native binary support for `sharp` and `@resvg/resvg-js`
+2. **build** — Runs `astro build && pagefind --site dist` to produce the static site
+3. **runtime** — Serves the `dist/` output with `nginx:stable-alpine` (~25MB final image)
+
+The accompanying `nginx.conf` ports all `vercel.json` rules (redirects, security headers, content negotiation for `Accept: text/markdown`) to nginx.
+
+```bash
+# Build and run locally
+docker build -t idsme .
+docker run -p 8080:80 idsme
+```
+
+For Dokploy, set the build type to **Dockerfile** and enable auto-deploy with a GitHub webhook.
 
 ## License
 
