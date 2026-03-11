@@ -1,5 +1,5 @@
 ---
-title: "Hello World - Welcome to My Blog"
+title: "Hello World - Welcome to My Blog - Ids"
 description: "Introducing ACME Labs - a space where I'll share thoughts on enterprise architecture, digital transformation, AI, and technology leadership."
 pubDatetime: 2026-03-10T18:00:00Z
 modDatetime: 2026-03-10T18:00:00Z
