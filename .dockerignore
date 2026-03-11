@@ -1,0 +1,14 @@
+node_modules
+dist
+.astro
+.git
+.github
+.husky
+.vercel
+.vscode
+.idea
+.claude
+temp-*
+npm-debug.log*
+CLAUDE.md
+README.md
