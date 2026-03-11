@@ -10,7 +10,7 @@ export const SOCIALS = [
   },
   {
     name: "X",
-    href: "https://x.com/idsmedev",
+    href: "https://x.com/IdsAchterhof",
     linkTitle: `${SITE.title} on X`,
     icon: "twitter",
     active: true,
@@ -24,7 +24,7 @@ export const SOCIALS = [
   },
   {
     name: "Mail",
-    href: "mailto:idsmedev@gmail.com",
+    href: "mailto:ids.achterhof@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: "mail",
     active: true,

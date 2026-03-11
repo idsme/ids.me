@@ -75,7 +75,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: "GitHub",
   },
   {
-    href: "https://x.com/idsmedev",
+    href: "https://x.com/IdsAchterhof",
     label: "Twitter",
   },
   {

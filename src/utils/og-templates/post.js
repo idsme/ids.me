@@ -8,9 +8,9 @@ import loadGoogleFonts from "../loadGoogleFont";
  * This template generates social media preview cards for blog posts.
  *
  * CUSTOMIZATION: We override the default behavior to show "idsme.dev"
- * on the right side instead of the author name (Peter Steinberger).
+ * on the right side instead of the author name (Ids Achterhof).
  * This avoids redundancy since the author name already appears on the left
- * with "by Peter Steinberger".
+ * with "by Ids Achterhof".
  */
 
 // const markup = html`<div

@@ -14,10 +14,10 @@ Enterprise Architect building scalable digital solutions. Bridging technology an
 
 ## Links
 
-- X/Twitter: [@idsmedev](https://x.com/idsmedev)
+- X/Twitter: [@IdsAchterhof](https://x.com/IdsAchterhof)
 - GitHub: [@idsme](https://github.com/idsme)
 - LinkedIn: [idsachterhof](https://www.linkedin.com/in/idsachterhof/)
-- Email: idsmedev@gmail.com
+- Email: ids.achterhof@gmail.com
 
 ---
 

@@ -83,7 +83,7 @@ I'm always interested in connecting with fellow architects, developers, and tech
 
 - [GitHub](https://github.com/idsme) - Where I share my open source work
 - [LinkedIn](https://www.linkedin.com/in/idsachterhof/) - For professional connections
-- [X/Twitter](https://x.com/idsmedev) - For shorter thoughts and discussions
+- [X/Twitter](https://x.com/IdsAchterhof) - For shorter thoughts and discussions
 
 ---
 
