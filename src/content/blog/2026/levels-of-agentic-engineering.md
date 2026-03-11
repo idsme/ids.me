@@ -1,5 +1,5 @@
 ---
-title: "The Levels of Agentic Engineering: From Prompt to Specification"
+title: "The Levels of Agentic Engineering: From Prompt to Specification -Concept"
 description: "Exploring four levels of engineering discipline — Prompt, Context, Intent, and Specification Engineering — and how each level dramatically increases first-time-right outcomes in agentic development workflows."
 pubDatetime: 2026-03-11T10:00:00Z
 modDatetime: 2026-03-11T10:00:00Z
