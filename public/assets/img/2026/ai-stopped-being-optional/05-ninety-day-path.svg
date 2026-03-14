@@ -1,0 +1,38 @@
+<svg width="100%" viewBox="0 0 680 230" xmlns="http://www.w3.org/2000/svg">
+<style>
+  .th{font-family:system-ui,-apple-system,sans-serif;font-size:14px;font-weight:500}
+  .ts{font-family:system-ui,-apple-system,sans-serif;font-size:12px}
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<line x1="80" y1="30" x2="600" y2="30" stroke="#B4B2A9" stroke-width="1.5"/>
+<circle cx="120" cy="30" r="5" fill="#2C2C2A"/>
+<circle cx="300" cy="30" r="5" fill="#2C2C2A"/>
+<circle cx="520" cy="30" r="5" fill="#2C2C2A"/>
+<text class="ts" fill="#888780" x="120" y="16" text-anchor="middle">This week</text>
+<text class="ts" fill="#888780" x="300" y="16" text-anchor="middle">End of month</text>
+<text class="ts" fill="#888780" x="520" y="16" text-anchor="middle">Day 90</text>
+<rect x="44" y="50" width="152" height="100" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="th" fill="#0C447C" x="120" y="72" text-anchor="middle" dominant-baseline="central">Map shadow AI</text>
+<text class="ts" fill="#185FA5" x="120" y="94" text-anchor="middle" dominant-baseline="central">Anonymous team survey</text>
+<text class="ts" fill="#185FA5" x="120" y="112" text-anchor="middle" dominant-baseline="central">Find what already works</text>
+<text class="ts" fill="#185FA5" x="120" y="130" text-anchor="middle" dominant-baseline="central">Standardize access</text>
+<line x1="196" y1="100" x2="222" y2="100" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="224" y="50" width="152" height="100" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text class="th" fill="#085041" x="300" y="72" text-anchor="middle" dominant-baseline="central">Pick 1 workflow</text>
+<text class="ts" fill="#0F6E56" x="300" y="94" text-anchor="middle" dominant-baseline="central">Highest volume process</text>
+<text class="ts" fill="#0F6E56" x="300" y="112" text-anchor="middle" dominant-baseline="central">Clearest before/after #</text>
+<text class="ts" fill="#0F6E56" x="300" y="130" text-anchor="middle" dominant-baseline="central">Map human vs agent</text>
+<line x1="376" y1="100" x2="442" y2="100" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="444" y="50" width="152" height="100" rx="8" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+<text class="th" fill="#27500A" x="520" y="72" text-anchor="middle" dominant-baseline="central">Measure impact</text>
+<text class="ts" fill="#3B6D11" x="520" y="94" text-anchor="middle" dominant-baseline="central">The business metric</text>
+<text class="ts" fill="#3B6D11" x="520" y="112" text-anchor="middle" dominant-baseline="central">Not the adoption rate</text>
+<text class="ts" fill="#3B6D11" x="520" y="130" text-anchor="middle" dominant-baseline="central">Did the number move?</text>
+<text class="ts" fill="#888780" x="120" y="176" text-anchor="middle">docs.claude.com</text>
+<line x1="120" y1="150" x2="120" y2="166" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="3 3"/>
+<text class="ts" fill="#888780" x="300" y="176" text-anchor="middle">Deloitte AI use cases</text>
+<line x1="300" y1="150" x2="300" y2="166" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="3 3"/>
+<text class="ts" fill="#888780" x="520" y="176" text-anchor="middle">If not → back to step 2</text>
+<line x1="520" y1="150" x2="520" y2="166" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="3 3"/>
+<text class="ts" fill="#888780" x="340" y="210" text-anchor="middle">If the number didn't move, you optimized the old process. You didn't redesign it.</text>
+</svg>
